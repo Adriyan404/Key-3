@@ -1,5 +1,3 @@
-from multiprocessing.pool import ThreadPool
-    from requests.exceptions import ConnectionError
 except ImportError:
     os.system('pip2 install lolcat')
     os.system('python2 mk.py')
